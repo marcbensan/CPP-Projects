@@ -1,0 +1,19 @@
+Name: Denyl Marc Bensan
+StudentID: 171309222
+Course: OOP244
+Professor: Hong Huang
+
+Reflection:
+
+I've had many struggles with this workshopa dn it's definitely the most challenging one so far. However, this is also the workshop that 
+helped me understand the main strenghts of the C++ language. I learned a lot about function overloading and memory allocation and their 
+importance. At first I did not understand the concept of function overloading because I thought it was an inferior method compared to 
+naming the functions differently. But the more I use it, the more I realize the efficiency of function overloading. It's more efficient 
+because if the functions have a similar functionality, it would make sense to type the same name but differentiate them between the 
+amount of parameters being passed through. I did not fully understand how function overloading works until I kept doing it in this workshop.
+In terms of memory allocation, I learned to distinguish the importance and the difference between a static and a dynamic memory allocation. 
+The importance of memory allocation is the ensure that the data being passed through an item has sufficient amount of space to be stored in, 
+otherwise, a memory leak may happen. A static memory allocation mean that the size being allocated is being specifically stated and can be 
+deleted without manually deallocating it. A dynamic memory allocation is a memory allocation that depends on certain logics that will calculate 
+the necessary amount of space to allocate for the files. Overall, this workshop has been extremely challenging and time-consuming, but 
+it definitely helped me understand how C++ work.

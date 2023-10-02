@@ -1,0 +1,14 @@
+In line number 1702 of your output:
+The output should be:
+> !
+  ^
+But your output is: 
+> 1
+  ^
+
+Unmatched character details:
+The character in column 3 is supposed to be:
+  [!] ASCII code(33)
+but you printed
+  [1] ASCII code(49)
+
