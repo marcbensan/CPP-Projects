@@ -1,0 +1,56 @@
+Script started on Fri 29 Sep 2023 09:02:40 PM EDT
+==36140== Memcheck, a memory error detector
+==36140== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==36140== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==36140== Command: ws
+==36140== 
+----------------------------------------
+1. Testing the validation logic.
+(only trains[6] should be valid)
+----------------------------------------
+trains[0]: not valid
+trains[1]: not valid
+trains[2]: not valid
+trains[3]: not valid
+trains[4]: not valid
+trains[5]: not valid
+trains[6]: valid
+----------------------------------------
+
+----------------------------------------
+2. Testing the display function.
+----------------------------------------
+Train in an invalid State!
+Train in an invalid State!
+Train in an invalid State!
+Train in an invalid State!
+Train in an invalid State!
+Train in an invalid State!
+NAME OF THE TRAIN:    VIA Rail Abitibi
+NUMBER OF PASSENGERS: 333
+DEPARTURE TIME:       2055
+----------------------------------------
+
+----------------------------------------
+3. Testing the member functions.
+----------------------------------------
+1: *************
+2: Seneca Express B leaves at 736 with 255 passengers.
+3: Seneca Express C leaves at 842 with 410 passengers.
+4: Seneca Express D leaves at 948 with 565 passengers.
+5: Seneca Express E leaves at 1054 with 720 passengers.
+6: *************
+7: *************
+----------------------------------------
+
+==36140== 
+==36140== HEAP SUMMARY:
+==36140==     in use at exit: 0 bytes in 0 blocks
+==36140==   total heap usage: 13 allocs, 13 frees, 72,906 bytes allocated
+==36140== 
+==36140== All heap blocks were freed -- no leaks are possible
+==36140== 
+==36140== For lists of detected and suppressed errors, rerun with: -s
+==36140== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Fri 29 Sep 2023 09:02:40 PM EDT

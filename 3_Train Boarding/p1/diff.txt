@@ -1,0 +1,14 @@
+In line number 31 of your output:
+The output should be:
+DEPARTURE TIME:       2055
+              ^
+But your output is: 
+DEPARTURE TIME      : 2055
+              ^
+
+Unmatched character details:
+The character in column 15 is supposed to be:
+  [:] ASCII code(58)
+but you printed
+  [Space] ASCII code(32)
+

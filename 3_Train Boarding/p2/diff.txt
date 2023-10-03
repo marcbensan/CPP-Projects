@@ -1,0 +1,14 @@
+In line number 84 of your output:
+The output should be:
+Train is full; 60 passengers of Seneca Express C, Seneca Express A could not be boarded!
+                                        ^
+But your output is: 
+Train is full; 60 passengers of Seneca Espress D, Seneca Express C, Seneca Express A could not be boarded!
+                                        ^
+
+Unmatched character details:
+The character in column 41 is supposed to be:
+  [x] ASCII code(120)
+but you printed
+  [s] ASCII code(115)
+
