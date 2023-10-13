@@ -1,0 +1,11 @@
+﻿  Flight.cpp
+  main.cpp
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(48,4): error C2593: 'operator +=' is ambiguous
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(48,4): message : could be 'built-in C++ operator+=(int, int)'
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(48,4): message : or       'built-in C++ operator+=(int, double)'
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(48,4): message : while trying to match the argument list '(int, sdds::Flight)'
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(49,4): error C2593: 'operator +=' is ambiguous
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(49,4): message : could be 'built-in C++ operator+=(int, int)'
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(49,4): message : or       'built-in C++ operator+=(int, double)'
+C:\Users\Marc\Desktop\CPA\OOP\OOP-Workshops-main\WS05\lab\main.cpp(49,4): message : while trying to match the argument list '(int, sdds::Flight)'
+  Generating Code...
