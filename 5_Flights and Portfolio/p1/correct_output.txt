@@ -1,0 +1,63 @@
+Script started on Mon 02 Oct 2023 11:14:34 PM EDT
+==20256== Memcheck, a memory error detector
+==20256== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==20256== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==20256== Command: ws.exe
+==20256== 
++------------------------------------------------------------------------------+
+ Flight  |  Empty Plane    
+ Flight  |  Ready to Depart     MD 432 | Pass:        100 |     65000.00 Liters
+ Flight  |  Ready to Depart    CAD 453 | Pass:        300 |    195000.00 Liters
+ Flight  |  Ready to Depart    IND 678 | Pass:        150 |     97500.00 Liters
+ Flight  |  Ready to Depart    FRN 435 | Pass:         70 |     45500.00 Liters
+ Flight  |  Empty Plane    
+ Flight  |  Low Fuel           ZAA 500 | Pass:        270 |     17550.00 Liters
++------------------------------------------------------------------------------+
+ Total passengers in CAD 453 and FRN 435 is:  370
+ Total fuel in CAD 453 and FRN 435 is:  240500.00
++------------------------------------------------------------------------------+
+ Total passengers in MD 432 and IND 678 is:  250
+ Total fuel in MD 432 and IND 678 is:  162500.00
++------------------------------------------------------------------------------+
+ Total passengers in MD 432 is:  100
+ Total passengers in CAD 453 is:  300
+ Total passengers in IND 678 is:  150
+ Total passengers in FRN 435 is:  70
++------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+ Flight  |  Empty Plane    
+ Flight  |  Empty Plane    
+ Flight  |  Ready to Depart    CAD 453 | Pass:         62 |    195000.00 Liters
+ Flight  |  Low Fuel           IND 678 | Pass:        388 |     97500.00 Liters
+ Flight  |  Ready to Depart    FRN 435 | Pass:         70 |     45500.00 Liters
+ Flight  |  Ready to Depart     MD 432 | Pass:        100 |     65000.00 Liters
+ Flight  |  Low Fuel           ZAA 500 | Pass:        270 |     17550.00 Liters
++------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+ Flight  |  Empty Plane    
+ Flight  |  Empty Plane    
+ Flight  |  Ready to Depart    CAD 453 | Pass:        262 |    195000.00 Liters
+ Flight  |  Ready to Depart    IND 678 | Pass:         88 |     97500.00 Liters
+ Flight  |  Low Fuel           FRN 435 | Pass:         70 |     30499.50 Liters
+ Flight  |  Ready to Depart     MD 432 | Pass:        100 |     65000.00 Liters
+ Flight  |  Ready to Depart    ZAA 500 | Pass:        270 |    177550.50 Liters
++------------------------------------------------------------------------------+
++------------------------------------------------------------------------------+
+ Flight  |  Low Fuel        EmptyPlane | Pass:        300 |         0.00 Liters
+ Flight  |  Empty Plane    
+ Flight  |  Ready to Depart    CAD 453 | Pass:        262 |    195000.00 Liters
+ Flight  |  Ready to Depart    IND 678 | Pass:         88 |     97500.00 Liters
+ Flight  |  Ready to Depart    FRN 435 | Pass:         70 |    200000.50 Liters
+ Flight  |  Ready to Depart     MD 432 | Pass:        100 |     65000.00 Liters
+ Flight  |  Ready to Depart    ZAA 500 | Pass:        270 |    177550.50 Liters
++------------------------------------------------------------------------------+
+==20256== 
+==20256== HEAP SUMMARY:
+==20256==     in use at exit: 0 bytes in 0 blocks
+==20256==   total heap usage: 17 allocs, 17 frees, 73,212 bytes allocated
+==20256== 
+==20256== All heap blocks were freed -- no leaks are possible
+==20256== 
+==20256== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 02 Oct 2023 11:14:35 PM EDT
